@@ -97,7 +97,7 @@ GO to https://Kali Linux.org
 
       ---
 
-  # Phrase 3: Create Directorate
+  # Phrase 3:  Directorate
 
   * mkdir file_name eg. mkdir test
 
@@ -132,16 +132,88 @@ GO to https://Kali Linux.org
 
  * Check O.S
 
+   uname
+
    <img width="402" height="67" alt="Screenshot 2026-03-29 222937" src="https://github.com/user-attachments/assets/61682932-bf08-4cbb-8f5e-3c2e31d54214" />
 
 
 
+* To add user
+  adduser eg. adduser venu
+  
+  <img width="487" height="241" alt="Screenshot 2026-04-01 183939" src="https://github.com/user-attachments/assets/2de377f9-6138-46ac-84ce-8bb679de4763" />
 
+
+
+ * To check new user created
+
+    cat /etc/passwd
+    
+  <img width="523" height="123" alt="Screenshot 2026-04-01 184003" src="https://github.com/user-attachments/assets/32245599-daa8-48e2-8b9e-814213e055b8" />
+  
+
+* To locate a filename
+
+  locate file_name eg. locate demo.txt
+
+  <img width="759" height="246" alt="Screenshot 2026-04-01 185332" src="https://github.com/user-attachments/assets/0a12c8a2-3e61-40b0-90ea-fbc810cbb420" />
+
+  ---
+
+  # Phrase 4: Command and their Uses
+
+    *Cat*  eg. cat shadow
+    
+     * Read file Content
+     
+<img width="873" height="182" alt="Screenshot 2026-04-01 190428" src="https://github.com/user-attachments/assets/5ef500a6-77b9-4cf1-a012-6f18d6ab65f1" />
+
+---
+
+  *ps* 
+   
+   * shows active processes
+     
+   * Helps monitor system activity
+
+<img width="397" height="99" alt="Screenshot 2026-04-01 191542" src="https://github.com/user-attachments/assets/7335858a-75a9-4e9c-97eb-0dabdfb3def1" />
+
+---
+
+*Man (manual)* eg. man ls
+
+ * Provides Command documentation
+ 
+ * Explain option and usage
       
+<img width="933" height="526" alt="Screenshot 2026-04-01 192053" src="https://github.com/user-attachments/assets/b795a9be-b92f-4cc4-ad04-d09c16d3d82a" />
 
+---
 
+*Grep* eg.(grep "man" notes.txt)
 
-      
+* find specific strings
+
+* Filters outputs
+
+  ---
+
+ *Echo* (Used to display text in terminal) eg. echo text
+
+ * Prints messages
+   
+ * write message into files 
+
+---
+
+*Sort* (used to sort file contents) eg. sort text.txt
+
+ * Sort data alphabetically
+
+ * Support numeric sorting
+
+---
+
 
     
 
